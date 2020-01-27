@@ -12,7 +12,7 @@ Gem::Specification.new 'mongoid-cleaner', Mongoid::Cleaner::VERSION do |spec|
   spec.extra_rdoc_files = ['CHANGELOG.md', 'CONTRIBUTING.md', 'LICENSE', 'README.md']
 
   spec.required_ruby_version     = '~> 2.4'
-  spec.required_rubygems_version = '~> 3.0.1'
+  spec.required_rubygems_version = '>= 3.0.1'
 
   spec.add_runtime_dependency 'mongoid', '>= 5.0', '< 6.0'
 
